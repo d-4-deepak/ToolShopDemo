@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0l2rbm--eEC1feYETNKqZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="b535c556-c5be-4397-92d7-cf6e8f64365b" CvElementArea="974, 904, 166, 50" CvTextArea="1022, 920, 104, 18" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 905, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="a2d4df47-e43c-4601-b07f-30b018c59666" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="63c1784ea610fce8c5a8fe47c40e48ff.jpg" xmlns="">0tw7aVOm7KkOXg9ozyJ9vvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

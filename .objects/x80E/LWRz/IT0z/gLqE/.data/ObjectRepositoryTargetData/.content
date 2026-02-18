@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BrH5zHfWcka9GLipO1PlFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" CVScreenId="aeabef2c-b36f-485b-bc63-83d579496910" CvElementArea="973, 938, 167, 50" CvTextArea="1025, 954, 101, 20" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 939, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' /&gt;" Guid="e3736905-3f46-4573-b55f-2d53405dfb29" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b559b850bbcc73d97bb4ad29003636cd.jpg" xmlns="">0Ko68s-8qcEy1GWg1-Fg4Ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

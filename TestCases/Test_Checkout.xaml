@@ -1,0 +1,482 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_Checkout" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="877.2,6981.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="592,6958.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="590.4,6461.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Checkout - Practice Software Testing -" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556.8,6397.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="555.2,6200" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckState DisplayName="Check App State 'Proceed to checkout'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="521.6,6136" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="520,2585.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="579e0787-a921-4217-a467-68347ed92daf" ContentHash="OlvjFRg0WEm5ZTSrw3tZGw" CvElementArea="1563, 644, 217, 51" CvTextArea="1580, 661, 185, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1566, 646, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' innertext='Proceed to checkout' /&gt;" Guid="b2b81e5e-d1a4-4c45-b1a5-c6458115df08" InformativeScreenshot="75c439ee3e3b90b6ebb24deb3a953433.jpg" Reference="QUyr5HjRO0207_LWey3M3w/xtdPwa61xU-G3uR1nUe5jA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <uix:NCheckState DisplayName="Check App State 'Login'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,2324" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,1533.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="email" />
+                                <Variable x:TypeArguments="ss:SecureString" Name="password" />
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Credentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="dg934257@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+                                <ui:GetRobotCredential.Password>
+                                  <OutArgument x:TypeArguments="ss:SecureString">
+                                    <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">password</CSharpReference>
+                                  </OutArgument>
+                                </ui:GetRobotCredential.Password>
+                                <ui:GetRobotCredential.Username>
+                                  <OutArgument x:TypeArguments="x:String">
+                                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">email</CSharpReference>
+                                  </OutArgument>
+                                </ui:GetRobotCredential.Username>
+                              </ui:GetRobotCredential>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email address *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9092234c-3373-4fe1-baa7-8ba68629d6ef" ContentHash="8WkA3LkJaEeE-Z1FL4SUDg" CvElementArea="569, 542, 782, 50" CvType="InputBox" DesignTimeRectangle="569, 544, 780, 47" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ng-pristine ng-invalid ng-touched' placeholder='Your email' aaname='Email address *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="1ea58d80-d77f-4eb9-bbae-c6ae12a6b2d5" InformativeScreenshot="ed78622fed78fbfcf593f6de85f7d7fb.jpg" IsResponsive="True" Reference="QUyr5HjRO0207_LWey3M3w/GSg5Z0a7L02uHCnKH53LOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="9092234c-3373-4fe1-baa7-8ba68629d6ef" CvTextArea="569, 510, 135, 18" CvTextArgument="Email address *" CvType="Text" DesignTimeRectangle="569, 504, 135, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='signin-tab' tag='LABEL' type='' class='form-label' aaname='Email address *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Email address *' /&gt;" Guid="467cd42b-41a3-4e0e-8246-812e79e737ff" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.Text>
+                                  <InArgument x:TypeArguments="x:String">
+                                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">email</CSharpValue>
+                                  </InArgument>
+                                </uix:NTypeInto.Text>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NTypeInto.SecureText>
+                                  <InArgument x:TypeArguments="ss:SecureString">
+                                    <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">password</CSharpValue>
+                                  </InArgument>
+                                </uix:NTypeInto.SecureText>
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="653714f9-49b3-4b85-8c90-ff3cfb615920" ContentHash="i4sPNJ3PJEO5EoEsnUj_Iw" CvElementArea="571, 640, 778, 49" CvType="InputBox" DesignTimeRectangle="569, 641, 780, 47" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control ng-pristine ng-invalid ng-touched' placeholder='Your password' aaname='Password *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="48004c69-6c1d-4087-afa0-7eb75276d7b8" InformativeScreenshot="0e7bd2764fd5e807884ec4afee3a10ff.jpg" Reference="QUyr5HjRO0207_LWey3M3w/-NBC-0ljlE6lEzjnlO8k9Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="653714f9-49b3-4b85-8c90-ff3cfb615920" CvTextArea="569, 617, 95, 18" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="569, 611, 97, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password *' parentid='signin-tab' tag='LABEL' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password *' /&gt;" Guid="54ffd7cc-9881-4058-80b2-026fcc633d88" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="5838726b-fc6b-48d9-89e3-dbad6f71fe68" ContentHash="iVFd8-trMEKagH15QywLsA" CvElementArea="565, 706, 398, 57" CvTextArea="739, 726, 50, 23" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="569, 708, 390, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="40550719-d65a-4466-859a-47359d41ee8d" InformativeScreenshot="efef0283b41eabdc7dac6340eec8b08b.jpg" Reference="QUyr5HjRO0207_LWey3M3w/nhROzuvGQkCCUQWplC99aw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="2d76a2e8-51b0-48a0-845d-101e836d81c7" ContentHash="QR73seFxFEK6dZPl0tHgFw" CvElementArea="1144, 505, 217, 51" CvTextArea="1160, 521, 183, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1146, 506, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="b7d1adf1-6e6d-4ecf-bd9f-153e1030be65" InformativeScreenshot="9c5db9f967a3075337ce7a358dc97997.jpg" Reference="QUyr5HjRO0207_LWey3M3w/4XCRv8ichk6BpXetDYViaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="1492aedc-668b-49de-a017-9f0ad477340d" ContentHash="raz0AZpj0UeIK3PN3R3IPA" CvElementArea="1134, 842, 218, 50" CvTextArea="1151, 857, 184, 20" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1136, 843, 214, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="f1dd3e6e-fb40-4434-80ff-6e5cc2b92515" InformativeScreenshot="cb2230615aca76645220dad9f5faa365.jpg" Reference="QUyr5HjRO0207_LWey3M3w/b_nRuZYY706Vrv7BiMiWuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payment'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="eb7e6d53-831b-4091-801e-63714de040fc" ContentHash="TaYLwFQr8ke-6Va7ozh2pg" CvElementArea="577, 507, 781, 49" CvType="InputBox" DesignTimeRectangle="578, 508, 781, 47" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='payment-method' tag='SELECT' type='' class='form-select ng-untouched ng-pristine ng-invalid' aaname='Payment Method' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3ebdfdf7-7151-4402-a2a9-7b90267774cc" InformativeScreenshot="b901ca3136ab32eee6014f381be0faf7.jpg" Reference="QUyr5HjRO0207_LWey3M3w/rsb_F_dy5E2hVuXlJGfK3g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="eb7e6d53-831b-4091-801e-63714de040fc" CvTextArea="577, 464, 140, 37" CvTextArgument="Payment" CvType="Text" DesignTimeRectangle="579, 456, 780, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Payment' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Payment' /&gt;" Guid="91c8672f-3ca7-46d2-b248-9cd1a6701442" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,450.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="2d76a2e8-51b0-48a0-845d-101e836d81c7" ContentHash="QR73seFxFEK6dZPl0tHgFw" CvElementArea="1144, 505, 217, 51" CvTextArea="1160, 521, 183, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1146, 506, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="b7d1adf1-6e6d-4ecf-bd9f-153e1030be65" InformativeScreenshot="9c5db9f967a3075337ce7a358dc97997.jpg" Reference="QUyr5HjRO0207_LWey3M3w/4XCRv8ichk6BpXetDYViaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="1492aedc-668b-49de-a017-9f0ad477340d" ContentHash="raz0AZpj0UeIK3PN3R3IPA" CvElementArea="1134, 842, 218, 50" CvTextArea="1151, 857, 184, 20" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1136, 843, 214, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="f1dd3e6e-fb40-4434-80ff-6e5cc2b92515" InformativeScreenshot="cb2230615aca76645220dad9f5faa365.jpg" Reference="QUyr5HjRO0207_LWey3M3w/b_nRuZYY706Vrv7BiMiWuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9de42683-6e36-4aa7-9d89-58b68c0b1891" ContentHash="DKVGxS2ScEWuDIILamYGDg" CvElementArea="565, 706, 398, 57" CvTextArea="739, 726, 50, 23" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="569, 708, 390, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="d73a9d0b-90c2-4175-8e03-a3355eee1b08" InformativeScreenshot="7ad7ba19f4553ce1ea3576d31f7448a5.jpg" Reference="QUyr5HjRO0207_LWey3M3w/BZ2zvNjwMEK1AqVFEmeojA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="520,3210.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Test_AddToCart - Invoke Workflow File (TestCases\Test_AddToCart.xaml)" sap:VirtualizedContainerService.HintSize="486.4,184.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="TestCases\Test_AddToCart.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                          </ui:InvokeWorkflowFile.Arguments>
+                        </ui:InvokeWorkflowFile>
+                        <uix:NCheckState DisplayName="Check App State 'Proceed to checkout'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,2961.6" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2388" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="579e0787-a921-4217-a467-68347ed92daf" ContentHash="OlvjFRg0WEm5ZTSrw3tZGw" CvElementArea="1563, 644, 217, 51" CvTextArea="1580, 661, 185, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1566, 646, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' innertext='Proceed to checkout' /&gt;" Guid="b2b81e5e-d1a4-4c45-b1a5-c6458115df08" InformativeScreenshot="75c439ee3e3b90b6ebb24deb3a953433.jpg" Reference="QUyr5HjRO0207_LWey3M3w/xtdPwa61xU-G3uR1nUe5jA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NCheckState DisplayName="Check App State 'Login'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,2126.4" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                <uix:NCheckState.IfExists>
+                                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,1336" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="x:String" Name="email" />
+                                      <Variable x:TypeArguments="ss:SecureString" Name="password" />
+                                    </Sequence.Variables>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Credentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="dg934257@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2">
+                                      <ui:GetRobotCredential.Password>
+                                        <OutArgument x:TypeArguments="ss:SecureString">
+                                          <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">password</CSharpReference>
+                                        </OutArgument>
+                                      </ui:GetRobotCredential.Password>
+                                      <ui:GetRobotCredential.Username>
+                                        <OutArgument x:TypeArguments="x:String">
+                                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">email</CSharpReference>
+                                        </OutArgument>
+                                      </ui:GetRobotCredential.Username>
+                                    </ui:GetRobotCredential>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email address *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9092234c-3373-4fe1-baa7-8ba68629d6ef" ContentHash="8WkA3LkJaEeE-Z1FL4SUDg" CvElementArea="569, 542, 782, 50" CvType="InputBox" DesignTimeRectangle="569, 544, 780, 47" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ng-pristine ng-invalid ng-touched' placeholder='Your email' aaname='Email address *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="1ea58d80-d77f-4eb9-bbae-c6ae12a6b2d5" InformativeScreenshot="ed78622fed78fbfcf593f6de85f7d7fb.jpg" IsResponsive="True" Reference="QUyr5HjRO0207_LWey3M3w/GSg5Z0a7L02uHCnKH53LOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="9092234c-3373-4fe1-baa7-8ba68629d6ef" CvTextArea="569, 510, 135, 18" CvTextArgument="Email address *" CvType="Text" DesignTimeRectangle="569, 504, 135, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='signin-tab' tag='LABEL' type='' class='form-label' aaname='Email address *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Email address *' /&gt;" Guid="467cd42b-41a3-4e0e-8246-812e79e737ff" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                      <uix:NTypeInto.Text>
+                                        <InArgument x:TypeArguments="x:String">
+                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">email</CSharpValue>
+                                        </InArgument>
+                                      </uix:NTypeInto.Text>
+                                      <uix:NTypeInto.VerifyOptions>
+                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                        </uix:VerifyExecutionTypeIntoOptions>
+                                      </uix:NTypeInto.VerifyOptions>
+                                    </uix:NTypeInto>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NTypeInto.SecureText>
+                                        <InArgument x:TypeArguments="ss:SecureString">
+                                          <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">password</CSharpValue>
+                                        </InArgument>
+                                      </uix:NTypeInto.SecureText>
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="653714f9-49b3-4b85-8c90-ff3cfb615920" ContentHash="i4sPNJ3PJEO5EoEsnUj_Iw" CvElementArea="571, 640, 778, 49" CvType="InputBox" DesignTimeRectangle="569, 641, 780, 47" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control ng-pristine ng-invalid ng-touched' placeholder='Your password' aaname='Password *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="48004c69-6c1d-4087-afa0-7eb75276d7b8" InformativeScreenshot="0e7bd2764fd5e807884ec4afee3a10ff.jpg" Reference="QUyr5HjRO0207_LWey3M3w/-NBC-0ljlE6lEzjnlO8k9Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="653714f9-49b3-4b85-8c90-ff3cfb615920" CvTextArea="569, 617, 95, 18" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="569, 611, 97, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password *' parentid='signin-tab' tag='LABEL' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password *' /&gt;" Guid="54ffd7cc-9881-4058-80b2-026fcc633d88" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                      <uix:NTypeInto.VerifyOptions>
+                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                        </uix:VerifyExecutionTypeIntoOptions>
+                                      </uix:NTypeInto.VerifyOptions>
+                                    </uix:NTypeInto>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="5838726b-fc6b-48d9-89e3-dbad6f71fe68" ContentHash="iVFd8-trMEKagH15QywLsA" CvElementArea="565, 706, 398, 57" CvTextArea="739, 726, 50, 23" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="569, 708, 390, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="40550719-d65a-4466-859a-47359d41ee8d" InformativeScreenshot="efef0283b41eabdc7dac6340eec8b08b.jpg" Reference="QUyr5HjRO0207_LWey3M3w/nhROzuvGQkCCUQWplC99aw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="2d76a2e8-51b0-48a0-845d-101e836d81c7" ContentHash="QR73seFxFEK6dZPl0tHgFw" CvElementArea="1144, 505, 217, 51" CvTextArea="1160, 521, 183, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1146, 506, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="b7d1adf1-6e6d-4ecf-bd9f-153e1030be65" InformativeScreenshot="9c5db9f967a3075337ce7a358dc97997.jpg" Reference="QUyr5HjRO0207_LWey3M3w/4XCRv8ichk6BpXetDYViaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="1492aedc-668b-49de-a017-9f0ad477340d" ContentHash="raz0AZpj0UeIK3PN3R3IPA" CvElementArea="1134, 842, 218, 50" CvTextArea="1151, 857, 184, 20" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1136, 843, 214, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="f1dd3e6e-fb40-4434-80ff-6e5cc2b92515" InformativeScreenshot="cb2230615aca76645220dad9f5faa365.jpg" Reference="QUyr5HjRO0207_LWey3M3w/b_nRuZYY706Vrv7BiMiWuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </uix:NCheckState.IfExists>
+                                <uix:NCheckState.IfNotExists>
+                                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,450.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="2d76a2e8-51b0-48a0-845d-101e836d81c7" ContentHash="QR73seFxFEK6dZPl0tHgFw" CvElementArea="1144, 505, 217, 51" CvTextArea="1160, 521, 183, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1146, 506, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="b7d1adf1-6e6d-4ecf-bd9f-153e1030be65" InformativeScreenshot="9c5db9f967a3075337ce7a358dc97997.jpg" Reference="QUyr5HjRO0207_LWey3M3w/4XCRv8ichk6BpXetDYViaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to checkout(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fdab58c7-68ed-4c30-812b-5f27144d694f" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="1492aedc-668b-49de-a017-9f0ad477340d" ContentHash="raz0AZpj0UeIK3PN3R3IPA" CvElementArea="1134, 842, 218, 50" CvTextArea="1151, 857, 184, 20" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1136, 843, 214, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout ' tag='BUTTON' type='button' /&gt;" Guid="f1dd3e6e-fb40-4434-80ff-6e5cc2b92515" InformativeScreenshot="cb2230615aca76645220dad9f5faa365.jpg" Reference="QUyr5HjRO0207_LWey3M3w/b_nRuZYY706Vrv7BiMiWuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </uix:NCheckState.IfNotExists>
+                                <uix:NCheckState.Target>
+                                  <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9de42683-6e36-4aa7-9d89-58b68c0b1891" ContentHash="DKVGxS2ScEWuDIILamYGDg" CvElementArea="565, 706, 398, 57" CvTextArea="739, 726, 50, 23" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="569, 708, 390, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="d73a9d0b-90c2-4175-8e03-a3355eee1b08" InformativeScreenshot="7ad7ba19f4553ce1ea3576d31f7448a5.jpg" Reference="QUyr5HjRO0207_LWey3M3w/BZ2zvNjwMEK1AqVFEmeojA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                </uix:NCheckState.Target>
+                              </uix:NCheckState>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,233.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error">
+                                <ui:LogMessage.Message>
+                                  <InArgument x:TypeArguments="x:Object">
+                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"Checkout get Failed"</CSharpValue>
+                                  </InArgument>
+                                </ui:LogMessage.Message>
+                              </ui:LogMessage>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="60e019be-0fdb-48ad-8b34-7ed57fa353b4" ContentHash="ml2s0MVgpke5NCelgmAh7w" CvElementArea="1563, 644, 217, 51" CvTextArea="1580, 661, 185, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1566, 646, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' /&gt;" Guid="0ac43219-0055-41ab-a183-8c9c6377530f" InformativeScreenshot="e517143c90495a654c93ba34d7c6adc8.jpg" Reference="QUyr5HjRO0207_LWey3M3w/Dovki5F37kWgUitBxgM-TA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="60e019be-0fdb-48ad-8b34-7ed57fa353b4" ContentHash="ml2s0MVgpke5NCelgmAh7w" CvElementArea="1563, 644, 217, 51" CvTextArea="1580, 661, 185, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1566, 646, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' /&gt;" Guid="0ac43219-0055-41ab-a183-8c9c6377530f" InformativeScreenshot="e517143c90495a654c93ba34d7c6adc8.jpg" Reference="QUyr5HjRO0207_LWey3M3w/Dovki5F37kWgUitBxgM-TA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="Omdu-AbgYUGiSMwvBKxPeA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOQSURBVDhPHdDpT9sFAMbxnzHxWDZlG4bAdNwbKFdxCSBzm4CwwcY1w8BJhxtyNMhYuWHQg1JaenFIgXK2UCgFWugBJVBQwMVX/gO+8I3xnfGFJr78mvHi8/KbPHmEnS07Ae8qAZ+DXZ+D/cA6R0EPPx75Of5pj5OTIMdnDjg5DXL66ojTn484Pj3k+PQIYddjx+e24d9axre1zK7PyV7Aze7OBnsBF4FdFwH/Ogd7Lg6DHg4PfQSDOxwc+Nnf9yI45gz4XYv4XFa8m1Z2vOsE/Jvs+DfweZy4XSusL5lZndVjmTSwtmbDt72CZ2uFbfcqwpZz4Sz2uGx4XTbc61amJ0xotRo6OjppkbZjHBml8bunpKWk8qjya5ZmjCzNmlhZNCP4tld5ze91srI8R6tUilj8lLrG5zQ2SXnyTEJ5hZi4qGhCzr2NKCmB6XEti9NGLD/oEM5mrttw2GdpqK8nOSmFiPBwKr/5lsFRC90DegoL7xMdFkJMWAi14kcsLUyemZnQI/h9bnxeN+pBFSLRDc69+w5vvfkGWaIU9F3P0UnrkVQWk5/xCV99mYVuoIepUQ2WcS1jwzIE75YTu22Oyqpq4mJiiQm/SHToeT6OuMTDglyK7peQf+8BdY/LkLc1YBlVM2lQYtYrMA29RLBOG5F1NpP7RQ6fpSaQk36dG/FXiAy9wPUkETfzS8nKKUT6opl5s555s47ZcQ3To2rGdAoE02A3jdVllORlIy7OpeR2OnfS4ki6GkpE2AekZd4hNSsPSX091plxZicMmEeGGNOr0A32Iwx0Smirq0QprUXeUsuzslweZCeTlfgRVy5fIDY+ke+LcvilvQqHUcHosAqDWo5W2YuypxVhRNWBWdPD/IiSGb2MvqYniIuyuZuRSMKHoRREXeTXqlT+6yzl1XAbU/pBxrRKdAN9qF62ISxOaLBbDMyPD2ExKhnqbqau4i7Fn4v49NpVSqPe56Agmr8kefyhrsOmUzCiljOk6KO/qx3BaZ1kY2ka25SRKcMAenkH0toqynMyuJ0Sz83Iy5hSQ/j9cRr/9Fawp37BhEaOVtGLrKsVYc02g2NxEuuUCcvrczT9yNsk1JTlU5SZTFZcBI2x5zkuiOJf6T1+G6zBoupCJ+tC2d2K4Nl04Fyawz5vZmHSyIReyUB3C03VDym/lc6txEjKIt9jLeMSfzdk8udQDVZlK3pZJ6oeKf8DaghvRLQAO+gAAAAASUVORK5CYII=" InformativeScreenshot="c543cb9ba7a8caf071c2c097defce94a.jpg" Reference="QUyr5HjRO0207_LWey3M3w/up3zHRQK70yQ_m4mqN4SXQ" Selector="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" Url="https://practicesoftwaretesting.com/checkout" Version="V2" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="590.4,233.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="556.8,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"System Error Occurred: " + exception.Message</CSharpValue>
+                  </InArgument>
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="590.4,94.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </TryCatch.Finally>
+    </TryCatch>
+  </Sequence>
+</Activity>

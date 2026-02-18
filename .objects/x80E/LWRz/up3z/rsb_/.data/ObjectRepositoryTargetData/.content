@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TaYLwFQr8ke-6Va7ozh2pg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="eb7e6d53-831b-4091-801e-63714de040fc" CvElementArea="577, 507, 781, 49" CvType="InputBox" DesignTimeRectangle="578, 508, 781, 47" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='payment-method' tag='SELECT' type='' class='form-select ng-untouched ng-pristine ng-invalid' aaname='Payment Method' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3ebdfdf7-7151-4402-a2a9-7b90267774cc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eb7e6d53-831b-4091-801e-63714de040fc" CvTextArea="577, 464, 140, 37" CvTextArgument="Payment" CvType="Text" DesignTimeRectangle="579, 456, 780, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Payment' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Payment' /&gt;" Guid="91c8672f-3ca7-46d2-b248-9cd1a6701442" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b901ca3136ab32eee6014f381be0faf7.jpg" xmlns="">0UkA8yx51ykqp8f9TtBMjWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Payment",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "rsb_F_dy5E2hVuXlJGfK3g",
+  "Reference": "QUyr5HjRO0207_LWey3M3w/rsb_F_dy5E2hVuXlJGfK3g",
+  "ParentRef": "QUyr5HjRO0207_LWey3M3w/up3zHRQK70yQ_m4mqN4SXQ",
+  "Created": "2026-02-18T21:32:28.6394571Z",
+  "Updated": "2026-02-18T21:32:28.6394571Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

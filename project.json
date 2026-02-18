@@ -60,6 +60,41 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCases\\Test_login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "db86c70a-5313-40c6-a5b4-a80b96b093e6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\Test_Search.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f7b2fc51-a1bf-4667-9275-62e660917ce9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\Test_AddToCart.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2632ac03-d143-40b0-b8cf-7047f62de7ed",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\Test_Checkout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9aea7d0e-1131-4906-bd13-2a3e9ec439b6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\dummy.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "95b83af2-e9cc-4e3b-8850-38b4a77b759e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\TestCaseDummy.xaml"
       }
     ],
     "saveToCloud": false

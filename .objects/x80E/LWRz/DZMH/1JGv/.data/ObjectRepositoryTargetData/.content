@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KMjj6TVE0ESFoeUMS8eHOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com" CVScreenId="bf84a143-ef43-425e-be46-24752e3aa0f2" CvTextArea="560, 765, 308, 38" CvTextArgument="Searched for: pliers" CvType="Text" DesignTimeRectangle="562, 759, 1207, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' aaname='Searched for: ' /&gt;" Guid="7b32fbfb-3d51-41d8-89ce-ac34c9c428ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b75918bc25259793808701bde81b720d.jpg" xmlns="">0d5T0zM0GiEu-jzPyKIWYSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

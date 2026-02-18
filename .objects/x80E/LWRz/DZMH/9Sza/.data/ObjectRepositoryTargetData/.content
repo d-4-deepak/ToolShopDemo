@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="105GGtgr7kqspvCB3Zts8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="e6c2636b-f5c6-4645-ae46-a7b4013bb7aa" CvElementArea="1072, 847, 61, 51" CvTextArea="1091, 861, 20, 21" CvTextArgument="+" CvType="Button" DesignTimeRectangle="1090, 862, 25, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='btn-increase-quantity' tag='svg' data-icon='plus' /&gt;" Guid="1dbd0706-7c20-4d01-a017-2476ba37861b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="4651a1b88281900f6947fbad41f1d195.jpg" xmlns="">0Y9PQcoa_R0GUdlUFyahfxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

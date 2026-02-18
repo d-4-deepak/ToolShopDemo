@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YvqhBOi3Kk2c4ZZk43-S7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" CVScreenId="f772701e-b214-4a38-bbed-84e22a8ebf50" CvElementArea="1631, 256, 55, 40" CvType="Icon" DesignTimeRectangle="1634, 272, 22, 21" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='navbarSupportedContent' tag='path' /&gt;" Guid="c0e74bba-d258-40b6-9378-039ea72b67d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVEhLtZS/agJBEId9qbRapbIQwbCNRVpRks4mkFwRyAucz6DWWok+Q2JhIYQU4e4FUiVpNvyEkc0sczt7exYfCHszn/Nnt/X982ub5HM4su9X1x4t/mEqH52eJ7mIiAs80evb3ub57AR+F2XpJdEQrGg8nlhjzJn5Yukl0RCcESpAJYCkT1kWzcrcepJ/IhdeXQzT3sCTiCLMiSeIYd3u6kTb3c4LjuG+f6MTYU48OJaXbj8sAjywDpvH57AoZSEIjODrcLTF3YMswqrywFjcSy+KUjcPHXHziaLUzcNCqUS0efhn9GJokN5IUQRoIaTgGCpFeFipFZBqkB7jShHJYlYds+U5VKKmUIlQFdZdmhWWAOeoRvomKHLnhEvMz4F752rPyE3CLyHhzrC2CK1AJXSf+DlAy3Be1d6gqCn+AEUC+5PGEjrIAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ca34be6620aaedf6302b9f98de4c6db3.jpg" xmlns="">0wP2tiLl-jEWq-ZkV3NMrlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

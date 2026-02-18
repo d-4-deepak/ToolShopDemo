@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="I5v3Vzn7gE20apX6nnpTeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" Url="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

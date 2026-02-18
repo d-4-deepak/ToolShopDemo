@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Claw Hammer with Shock …(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "zosXwwBQG0iHMGSRTM9Xyw",
+  "Reference": "QUyr5HjRO0207_LWey3M3w/zosXwwBQG0iHMGSRTM9Xyw",
+  "ParentRef": "QUyr5HjRO0207_LWey3M3w/Bx2vxX47L0Kxv6Ep43adwQ",
+  "Created": "2026-02-18T18:21:08.323213Z",
+  "Updated": "2026-02-18T18:21:08.323213Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
