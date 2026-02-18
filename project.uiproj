@@ -1,0 +1,6 @@
+{
+  "Name": "ToolShopDemo",
+  "ProjectType": "Tests",
+  "Description": "ToolShopDemo",
+  "MainFile": "Main.xaml"
+}
