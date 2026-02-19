@@ -87,28 +87,28 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="965,3868" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="965,4763" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="560,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="560,3722" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="560,4617" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="558,3225" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="558,4120" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Login - Practice Software Testing - To" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,3161" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="4d641b2f-5767-43e6-b930-09890ad01155" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Login - Practice Software Testing - To" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,4056" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="4d641b2f-5767-43e6-b930-09890ad01155" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,2963" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,3858" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="email" />
                     <Variable x:TypeArguments="ss:SecureString" Name="password" />
@@ -123,7 +123,21 @@
                       <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com" CVScreenId="8fbf7b77-919d-4aa1-8fec-5943ab2be3e5" ContentHash="G9Jb7rLuNU6K7AMWrfIXag" DesignTimeRectangle="1323, 207, 65, 40" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sign in' class='nav-link' parentid='navbarSupportedContent' tag='A' /&gt;" Guid="e2e6767a-8fb8-493e-a804-43df4c1f58d3" InformativeScreenshot="c6e2676df9f4c084a0eb052d009e7c5c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/2lZdcIlokE2lBy6nNzt-pw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">"Clicked on Sign-In button"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="488,61" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">"Maximized window for better viewing experience"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Credentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="dg934257@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="488,190" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
                     <ui:GetRobotCredential.Password>
                       <OutArgument x:TypeArguments="ss:SecureString">
@@ -136,6 +150,20 @@
                       </OutArgument>
                     </ui:GetRobotCredential.Username>
                   </ui:GetRobotCredential>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">"Got credentials from Assets"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">"Typing Email in the Email field"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email address *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="4d641b2f-5767-43e6-b930-09890ad01155" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/auth/login" CVScreenId="e223a7a7-d81e-45c9-be8e-83d7cb2bb78d" ContentHash="WD6kHOM2BE6WL1ztkySyDg" CvElementArea="572, 689, 458, 40" CvType="InputBox" DesignTimeRectangle="572, 690, 457, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ng-untouched ng-pristine ng-invalid' placeholder='Your email' aaname='Email address *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="0048f95b-ccaa-4b7e-b330-ba7e253371f2" InformativeScreenshot="533423495a065fbe903792334e6764f7.jpg" IsResponsive="True" Reference="QUyr5HjRO0207_LWey3M3w/v0Pe6od5dEagZ_yBxML4tg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
@@ -162,6 +190,13 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">"Typing Password in the Password field"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="4d641b2f-5767-43e6-b930-09890ad01155" Version="V5">
                     <uix:NTypeInto.SecureText>
                       <InArgument x:TypeArguments="ss:SecureString">
@@ -193,10 +228,10 @@
                       <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/auth/login" CVScreenId="bca0ea2e-a5bc-4a5e-91d3-ff20298a8b7d" ContentHash="-J3yvMOm6EaO789ZePeMtw" CvElementArea="568, 820, 238, 40" CvTextArea="665, 832, 43, 19" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="572, 822, 229, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="95a62f90-58bf-419f-8f44-9372ff1c5ac0" InformativeScreenshot="2b7d44ffc063cb31d7823e3bafa9a698.jpg" Reference="QUyr5HjRO0207_LWey3M3w/Tw8aOcdRD068814H97Uvqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info">
                     <ui:LogMessage.Message>
                       <InArgument x:TypeArguments="x:Object">
-                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"Clicked on login"</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">"Clicked on Login button"</CSharpValue>
                       </InArgument>
                     </ui:LogMessage.Message>
                   </ui:LogMessage>

@@ -43,12 +43,6 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "6f16a4b0-de88-43ad-a5cc-f9efd3849e88",
-        "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
         "testCaseId": "e4246d27-3f18-43d2-b861-a69388cdeecc",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -84,17 +78,9 @@
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "9aea7d0e-1131-4906-bd13-2a3e9ec439b6",
+        "testCaseId": "6f16a4b0-de88-43ad-a5cc-f9efd3849e88",
         "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "TestCases\\dummy.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "95b83af2-e9cc-4e3b-8850-38b4a77b759e",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Tests\\TestCaseDummy.xaml"
+        "fileName": "main.xaml"
       }
     ],
     "saveToCloud": false
